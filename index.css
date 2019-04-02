@@ -1,0 +1,27 @@
+body,html{
+margin: 0px;
+padding: 0px;
+scroll-behavior: smooth;
+}
+body,
+html,
+header,
+#intro{
+  height: 100%;
+}/*https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500*/
+#intro{
+  background-image: url("http://www.easybasicphotography.com/uploads/8/1/3/6/81363426/01311_orig.jpg");
+  height: 100%;
+  padding: 300px;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  filter:brightness(100%);
+}
+.navbar{
+  opacity: 0.5;
+}
+#Contact, .container-fluid, .row, .col-md-4, form, .form-control {
+  border: none;
+  border-bottom: 2px double black;
+}
